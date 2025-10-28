@@ -26,10 +26,7 @@ function BookDetail({ book }: Props) {
   const [mainImage, setMainImage] = useState<string>("");
   const [openViewer, setOpenViewer] = useState<boolean>(false);
   const [viewerImage, setViewerImage] = useState<string>("");
-  // const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
   const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 1024);
-
-  // console.log(currentImageIndex);
 
   useEffect(() => {
     const handleResize = () => {
