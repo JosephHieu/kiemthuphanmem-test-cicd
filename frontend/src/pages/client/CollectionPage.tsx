@@ -1,11 +1,7 @@
-import React from 'react'
+// import React from 'react'
 
 function CollectionPage() {
-  return (
-    <div>
-      
-    </div>
-  )
+  return <div></div>;
 }
 
-export default CollectionPage
+export default CollectionPage;
